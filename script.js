@@ -104,3 +104,5 @@ function getAirQuality(){
     const airQualityUrl= `http://api.openweathermap.org/data/2.5/air_pollution?lat=50&lon=50&appid=${myApi}`;
     const airForecastUrl= `http://api.openweathermap.org/data/2.5/air_pollution/forecast?lat=${lat}&lon=${lon}&appid=${myApi}`;
 }
+//get lat + lon from built-in geo location api on web browser
+//assign to variables
